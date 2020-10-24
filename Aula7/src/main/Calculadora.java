@@ -12,14 +12,14 @@ package main;
 public class Calculadora {
 
 	/**
-	 * O método {@code somar} faz a soma de dois números
+	 * O método {@code somarNumeros} faz a soma de dois números
 	 * 
 	 * @param i valor do primeiro número a ser somado
 	 * @param j valor do segundo número a ser somado
 	 * @return valor da soma de i e j
 	 * @see Math
 	 */
-	public double somar(double i, double j) {
+	public double somarNumeros(double i, double j) {
 		return i + j;
 	}
 
@@ -45,6 +45,7 @@ public class Calculadora {
 	 * @see Math
 	 */
 	public double dividir(double i, double j) {
+		if(j == 0) return 0;
 		return i / j;
 	}
 

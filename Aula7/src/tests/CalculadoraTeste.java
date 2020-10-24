@@ -11,7 +11,7 @@ class CalculadoraTeste {
 	void testSomar() {
 		
 		Calculadora calc = new Calculadora();
-		double resultado = calc.somar(5.5,5.7);
+		double resultado = calc.somarNumeros(5.5,5.7);
 		
 		assertEquals(11.2, resultado);
 	}

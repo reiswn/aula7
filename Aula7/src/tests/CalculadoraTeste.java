@@ -20,9 +20,9 @@ class CalculadoraTeste {
 	void testSubtrair() {
 		
 		Calculadora calc = new Calculadora();
-		double resultado = calc.subtrair(5,-1);
+		double resultado = calc.subtrair(6,-1);
 		
-		assertEquals(6, resultado);
+		assertEquals(7, resultado);
 		
 	}
 
